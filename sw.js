@@ -1,7 +1,7 @@
 // StockMaster service worker — enables the app to load offline once installed.
 // Bump this version string whenever index.html changes, so returning users
 // get the update instead of a stale cached copy.
-const CACHE_NAME = 'stockmaster-v3';
+const CACHE_NAME = 'stockmaster-v4';
 
 const APP_SHELL = [
   './stockmaster.html',
